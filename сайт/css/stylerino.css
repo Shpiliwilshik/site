@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logotype{
+	padding: 0.5%;
+}
+.logo {
+	max-width: 100%;
+	height: auto;
+}
+nav{
+	margin-top: 50px;
+}
+.nav{
+	display: flex;
+}
+.nav a{
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px 15px;
+	text-decoration: none;
+	border-right: 1px solid yellow;
+}
+.nav a:hover{
+	border-bottom:3px solid red;
+}
+.contacts{
+	margin:25px 20px ;
+	color: blue;
+}
+.zastavka{
+	text-align: center;	
+}
+.zastav{
+	max-width: 100%;
+	height: auto;
+}
+.content{ display:flex;
+}
+.news,
+.news-1,
+.news-2
+{
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+	text-align: center;
+	font-size: 15px;
+	background-color: yellow;
+}	
+.news-3,
+.news-4,
+.news-5
+{
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+	text-align: center;
+	font-size: 15px;
+	background-color: green;	
+}
+.clearfix{
+	clear: both;
+}
+.blocks{
+	max-width: 100%;
+	height: auto;
+	align-content: center;
+}
+main{
+	background-color: #455f67;
+}
+footer{
+	background-color: black;
+	color: blue;
+}
+@media screen and (max-width:768px) {
+.content{
+	display: grid;
+}	
+.news,
+.news-1,
+.news-2,
+.news-3,
+.news-4,
+.news-5{
+width: 100%;
+}
+}
